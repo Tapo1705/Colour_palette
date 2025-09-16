@@ -1,0 +1,21 @@
+
+name: flutter_app_1
+description: A Flutter app to check color palette harmony from clothes photos.
+publish_to: "none" # Remove this line if publishing
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^6.1.1
+  palette_generator: ^0.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
